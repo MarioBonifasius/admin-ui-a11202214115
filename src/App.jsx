@@ -38,11 +38,32 @@ function App() {
             <div className="p-4 bg-red-100">
               <h3 className="text-lg font-semibold mb-4">{course.title}</h3>
 
-              <div className="bg-red-50 p-2 rounded-lg">detail</div>
+              							<div className="bg-red-50 p-2 rounded-lg">
+                <div className="text-sm text-gray-500 mt-2">
+                  <span>👥 123 users</span>
+                  <span>⏱ 60</span>
+                </div>
 
-            {/* Footer */}
+                {/* Author */}
+                <div className="mt-3 gap-2">
+                  <img
+                    src="https://www.placehold.co/50x50"
+                    alt="Author's Avatar"
+                    className="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div>
+                    <p className="text-sm font-medium">Author's Name</p>
+                    <p className="text-xs text-gray-500">Designer</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Footer */}
               <div className="mt-4">
-                button
+                <div className="bg-white py-2 px-4 rounded">$123</div>
+                <button className="bg-red-700 text-white px-4 py-2 rounded text-sm">
+                  Get Started
+                </button>
               </div>
             </div>
           </div>
